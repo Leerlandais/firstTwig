@@ -9,5 +9,11 @@
 </head>
 <body>
 <h1>TWIG</h1>
+<p>
+    {% for item in chiffres %}
+        {{ item }}
+        {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</p>
 </body>
 </html>

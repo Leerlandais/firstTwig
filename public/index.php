@@ -23,4 +23,4 @@ $array = [
 ];
 
 // Appel de la vue de test
-echo $twig->render('test.html.twig', ['chiffres' => $array]);
+echo $twig->render('base.html.twig', ['chiffres' => $array]);
